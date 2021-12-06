@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEST ONLINE FOOD SERVICES</title>
+    <link rel="stylesheet" href="C:\Users\Shree\Documents\RestoManagment\Restrowebsite\content\css\style.css">
+    <link rel="stylesheet" href="C:\Users\Shree\Documents\218js&css webpages\Restrowebsite\content\css\img.css">
+    <link rel="stylesheet" href="C:\Users\Shree\Documents\RestoManagment\Restrowebsite\content\css\responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-------------------contact us------->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235014.25792060973!2d72.43965613977417!3d23.02018176322362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1623439401455!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
+
+
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ road,ABC bulding</h5>
+                        <p>ahemedabad,gurukul,IN</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+2 08398659876</h5>
+                        <p>monday to sunday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>info@nsk.com</h5>
+                        <p>email us your feedback</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="enter your name" required>
+                    <input type="email" name="email" placeholder="enter email address" required>
+                    <input type="text" name="location" placeholder="enter your location" required>
+                    <textarea rows="8" nane="message" placeholder="message" required></textarea>
+                    <button type="submit" class="btn red-btn">send message</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-----------------footer------->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptas voluptates? Qui.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-whatsapp"></i>
+
+
+        </div>
+        <p> Made <i class="fa fa-heart"></i> by NSK</p>
+    </section>
+
+
+
+
+
+    <!-------------javscript for toggle menu--------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
